@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background-image: url(/assets/bodyworn-794099_1280.jpg);
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+}
+.section1 .navbar1 {
+  display: flex;
+  margin: 0px 20px 0 20px;
+  border-bottom: 1px solid grey;
+}
+.section1 .navbar1 .first {
+  display: flex;
+  font-size: 15px;
+  color: white;
+  gap: 10px;
+  margin-top: 5px;
+}
+.section1 .navbar1 .second {
+  display: flex;
+  gap: 10px;
+  color: white;
+  margin-left: 70%;
+  margin-top: 5px;
+}
+.section1 .navbar1 .second .word {
+  font-family: "Poppins", sans-serif;
+}
+.section1 .navbar1 .second .word:hover {
+  color: orange;
+}
+.section1 .navbar2 {
+  display: flex;
+  margin: 15px 20px 0 80px;
+}
+.section1 .navbar2 .menu {
+  display: flex;
+  gap: 10px;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.section1 .navbar2 .menu p {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.section1 .center {
+  width: 70%;
+  margin: 10%;
+}
+.section1 .center #open {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.section1 .center #ex {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.section1 .center #lorem {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.section1 .center #bt {
+  background-color: #fab700;
+  color: white;
+  width: 150px;
+  height: 7vh;
+  border: none;
+}
+.section1 .center #bt:hover {
+  border: 1px solid yellow;
+  background-color: transparent;
+  color: orange;
+  transition: 0.5s;
+}
+
+.section2 .head {
+  display: block;
+  align-items: center;
+  flex: column;
+  margin-top: 5%;
+  margin-left: 38%;
+}
+.section2 .head .our {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section2 .head .who {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+.section2 .cards {
+  display: flex;
+  gap: 5%;
+  margin: 5% 10% 0 10%;
+}
+.section2 .cards .card {
+  padding: 15px 15px;
+}
+.section2 .cards .card:hover {
+  background-color: orange;
+  color: black;
+  transition: 0.5s;
+}
+.section2 .cards .card:hover #two {
+  color: black;
+}
+.section2 .cards .card #one {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section2 .cards .card #two {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.section3 .head {
+  display: block;
+  align-items: center;
+  flex: column;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.section3 .head .our {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section3 .head .who {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 15%;
+}
+.section3 .bir {
+  margin-top: 5%;
+  display: flex;
+  margin: 5% 7% 0 7%;
+}
+.section3 .bir .kart {
+  padding: 50px 50px;
+}
+.section3 .bir .kart:hover {
+  background-color: orange;
+  transition: 0.5s;
+  color: black;
+}
+.section3 .bir .kart .user {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.section3 .bir .kart .text {
+  color: grey;
+}
+.section3 .iki {
+  margin-top: 5%;
+  display: flex;
+  margin: 5% 7% 0 7%;
+}
+.section3 .iki .kart {
+  padding: 50px 50px;
+}
+.section3 .iki .kart:hover {
+  background-color: orange;
+  transition: 0.5s;
+  color: black;
+}
+.section3 .iki .kart .user {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.section3 .iki .kart .text {
+  color: grey;
+}
+
+.section4 {
+  display: flex;
+  width: 100%;
+  background-color: orange;
+  height: 50vh;
+}
+.section4 .elements {
+  display: flex;
+  gap: 70px;
+  margin: 20vh 14%;
+}
+.section4 .elements b {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section4 .elements p {
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+.section5 {
+  margin-top: 5%;
+}
+.section5 .head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.section5 .head .bir {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section5 .head .iki {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+.section5 .ilk {
+  margin: 3% 5%;
+  gap: 3%;
+}
+.section5 .ikinci {
+  margin: 3% 5%;
+  gap: 3%;
+}
+.section5 .uc {
+  margin: 3% 5%;
+  gap: 3%;
+}
+
+.section6 .head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.section6 .head .one {
+  color: black;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section6 .head .two {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+.section6 .cards {
+  display: flex;
+  margin: 0 10%;
+  gap: 5%;
+}
+.section6 .cards .card {
+  margin-top: 5%;
+  width: 20%;
+}
+.section6 .cards .card:hover .iki {
+  color: orange;
+  transition: 0.5s;
+}
+.section6 .cards .card:hover #img {
+  transition: 0.5s;
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.3);
+}
+.section6 .cards .card #img {
+  width: 90%;
+}
+.section6 .cards .card .bir {
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 20px;
+}
+.section6 .cards .card .iki {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.section6 .cards .card .uc {
+  color: grey;
+}
+.section6 .cards .card .foot {
+  display: flex;
+  justify-content: space-between;
+}
+.section6 .cards .card .foot .like {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.section6 .cards .card .foot .comments {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.section7 {
+  margin-top: 5%;
+  background-color: #04091e;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  gap: 10px;
+}
+.section7 .one {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.section7 .one .bir {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.section7 .one .iki {
+  color: grey;
+}
+.section7 .one .uc {
+  color: grey;
+}
+.section7 .two {
+  margin-top: 10%;
+  margin-right: 25%;
+}
+.section7 .two .bir {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.section7 .two .iki {
+  color: grey;
+}
+.section7 .two .uc {
+  width: 400px;
+  height: 8vh;
+}
+.section7 .tree {
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.section7 .tree .bir {
+  width: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.section7 .tree .iki {
+  color: grey;
+}
+.section7 .tree .first {
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .section1 .navbar1 {
+    margin: 0px 5px 0px 5px;
+  }
+  .section1 .center #open {
+    font-size: 5px;
+  }
+  .section1 .center #ex {
+    font-size: 20px;
+  }
+}
